@@ -1,0 +1,27 @@
+{
+  "name": "labs-provider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rm-httpse/LABS-provider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rm-httpse/LABS-provider/issues"
+  },
+  "homepage": "https://github.com/rm-httpse/LABS-provider#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "socksv5": "^0.0.6"
+  }
+}
